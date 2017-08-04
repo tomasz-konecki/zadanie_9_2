@@ -6,7 +6,5 @@ var newName = "Marian";
 
 if (allNames.includes(newName) === false) {
     allNames.push(newName);
-} else {
-    
 }
 document.getElementById("names").textContent = allNames.join(' ');
