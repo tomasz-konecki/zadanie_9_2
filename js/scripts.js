@@ -4,7 +4,7 @@ var maleNames = ["Piotrek", "Marek", "Arek", "Jarek"];
 var allNames = femaleNames.concat(maleNames);
 var newName = "Marian";
 
-if (allNames.includes(newName) === false) {
+if (!allNames.includes(newName)) {
     allNames.push(newName);
 }
 document.getElementById("names").textContent = allNames.join(' ');
